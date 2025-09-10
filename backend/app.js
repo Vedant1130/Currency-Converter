@@ -14,7 +14,7 @@ const apiLimiter = rateLimit({
 });
 
 const corsOptions = {
-  origin: ["https://currency-converter-frontend-sqsc.onrender.com/"],
+  origin: ["https://currency-converter-frontend-sqsc.onrender.com"],
 };
 
 // Middlewares
