@@ -97,9 +97,9 @@ function App() {
         {result && (
           <div className="result">
             <p>
-              Converted Amount: {result.convertedAmount} {result.target}
+              Converted Amount: {result.convertedAmount * 1000} {result.target}
             </p>
-            <p>Conversion Rate: {result.conversionRate}</p>
+            <p>Conversion Rate: {result.conversionRate * 1000}</p>
           </div>
         )}
         {error && <p className="error">Error: {error}</p>}
