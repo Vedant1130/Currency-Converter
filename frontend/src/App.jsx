@@ -35,7 +35,7 @@ function App() {
     //Http Request
     try {
       const response = await axios.post(
-        "https://currency-converter-backend-qeyc.onrender.com",
+        "https://currency-converter-backend-qeyc.onrender.com/api/convert",
         formData
       );
       setResult(response?.data);
